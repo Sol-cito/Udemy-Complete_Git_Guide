@@ -36,9 +36,9 @@ Git Bash는 Bash와 Git, 기타 등등이 한 데 묶인 package로서 윈도우
   - **Commit** : Stores different type of versions.
   - **Annotated Tag** : text pointer which points commit.
 
-- Here I created an object by using 'git hash-object' command (--stdin is to create it based on standard configuration).![image-20200630235627387](P:\[Udemy] Complete Git Guide\img\image-20200630235627387.png)
+- Here I created an object by using 'git hash-object' command (--stdin is to create it based on standard configuration).![image-20200630235627387](P:/[Udemy] Complete Git Guide/img/image-20200630235627387.png)
 
-- Underneath the command line, we can see a very strange code. This code is actually a hash code, which points out the location and the object in the directory(in the hidden .git foler, not in the main folder) like below.![image-20200630235913899](P:\[Udemy] Complete Git Guide\img\image-20200630235913899.png)
+- Underneath the command line, we can see a very strange code. This code is actually a hash code, which points out the location and the object in the directory(in the hidden .git foler, not in the main folder) like below.![image-20200630235913899](P:/[Udemy] Complete Git Guide/img/image-20200630235913899.png)
 
 - A new file has been created in the directory named 'b7' and the file name starts with 'aec...' that is obviouly the same letters as the hash code.
 - The hash code is created by input and in this example, it was the string that I had written, 'Hello, Git'. Then how does Git convert a string into a long, strange hash code?
@@ -56,6 +56,6 @@ Git Bash는 Bash와 Git, 기타 등등이 한 데 묶인 package로서 윈도우
 
 - if you add '| shasum' right next to echo command line, you will see the converted hash code down below like this : 
 
-  ![image-20200701003319366](P:\[Udemy] Complete Git Guide\img\image-20200701003319366.png)
+  ![image-20200701003319366](P:/[Udemy] Complete Git Guide/img/image-20200701003319366.png)
 
 - These characters are exactlly 40 hexadecimals encoded from the string "Hello , Git".
