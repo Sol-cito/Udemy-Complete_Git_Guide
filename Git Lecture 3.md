@@ -23,7 +23,7 @@
 
   - Each usage example is like below : 
 
-    ![image-20200706224722579](.\img\image-20200706224722579.png)
+    ![image-20200706224722579](./img/image-20200706224722579.png)
 
   
 
@@ -37,15 +37,15 @@
 
 - If I create a text file with content of 'Hello, Git' text, store it in a directory, and punch the command line with its filename, a git object will be created in the git repository.
 
-  ![image-20200706230319674](.\img\image-20200706230319674.png)
+  ![image-20200706230319674](./img/image-20200706230319674.png)
 
   < Create an hash-object based on a text file named 'new-file.txt' >
 
-  ![image-20200706230435446](.\img\image-20200706230435446.png)
+  ![image-20200706230435446](./img/image-20200706230435446.png)
 
   < A directory named '44' has been created storing an object '00aae....' which I had commanded to create > 
 
-  ![image-20200706231735693](.\img\image-20200706231735693.png)
+  ![image-20200706231735693](./img/image-20200706231735693.png)
 
   < Corresponding outputs of each cat-file command option >
 
@@ -63,7 +63,7 @@
 
 - So if I try to make a hash code by using Shasum command like below : 
 
-  ![image-20200706235153841](.\img\image-20200706235153841.png)
+  ![image-20200706235153841](./img/image-20200706235153841.png)
 
 - The same hash code we created in the last lecture with the content "Hello, Git" pops up.
 
@@ -71,7 +71,7 @@
 
 - Therefore, if you want to make the same hash code as we already created above with a text file, you just type object type, size and content like below : 
 
-  ![image-20200706235618244](.\img\image-20200706235618244.png)
+  ![image-20200706235618244](./img/image-20200706235618244.png)
 
 - Then we can see the same hash code has shown. This is the structure of git object.
 
